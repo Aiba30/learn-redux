@@ -1,0 +1,73 @@
+.btn{
+	padding: 5px 20px;
+	border-radius: 5px;
+	background:#32a852;
+}
+.form__btn{
+	background: #32a896;
+}
+.form__input{
+	height: 23px;
+	width: 400px;
+	margin-right: 3px;
+}
+.form__title{
+	font-size: 25px;
+}
+.row{
+	display: flex;
+	padding-left: 40px;
+	margin: 0 -190px;
+}
+.column{
+	padding: 0 190px;
+}
+
+.lds-dual-ring {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+ }
+ .lds-dual-ring:after {
+	content: " ";
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	margin-left:90px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	border-color: #1facc8 transparent #1facc8 transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
+ }
+ @keyframes lds-dual-ring {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+ }
+ ul{
+	list-style: none;
+ }
+ li{
+	border: solid 1px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 700;
+ }
+ li:not(:last-child){
+	border-bottom:0.5px;
+ }
+
+ .alert{
+	position: absolute;
+	top: 40px;
+	left: 550px;
+	color: red;
+	font-size: 25px;
+	width: 400px;
+	height: 40px;
+	background: #32a852;
+ }
